@@ -1,0 +1,5 @@
+docker run devopsdockeruh/exec_bash_exercise
+docker attach f281
+docker exec -it f281 tail -f ./logs.txt
+
+The secret message: "Docker is easy"

@@ -1,0 +1,10 @@
+docker run -d --rm -it --name websh fav_distro:xenial sh -c 'echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;'
+
+docker exec -i -t 2d /bin/bash
+# apt-get update; apt-get install
+
+docker attach websh
+helsinki.fi
+
+docker stop 2d
+docker start 2d
