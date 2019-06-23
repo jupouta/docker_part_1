@@ -1,0 +1,2 @@
+Link to Docker Hub: https://hub.docker.com/r/jupouta/unicafe-docker-project
+Link to project in GitHub: https://github.com/jupouta/fullstack_osa_6_unicafe
