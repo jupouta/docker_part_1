@@ -1,0 +1,2 @@
+docker build -t backend-docker .
+docker run -v $(pwd)/logs.txt:/usr/src/path/logs.txt -p 127.0.0.1:8000:8000 backend-docker
